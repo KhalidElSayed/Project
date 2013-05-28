@@ -1,0 +1,7 @@
+    RKCropImageController *cropController = [[RKCropImageController alloc] initWithImage:imageView.image];
+    cropController.delegate = self;
+    [self presentModalViewController:cropController animated:YES];
+
+-(void)cropImageViewControllerDidFinished:(UIImage *)image{
+    imageView.image = image;
+}
