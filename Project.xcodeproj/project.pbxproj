@@ -88,6 +88,8 @@
 		5C22F42C1740C62400AFC8DD /* LocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C22F42B1740C62400AFC8DD /* LocationHelper.m */; };
 		5C22F42F1740C7C900AFC8DD /* CLLocation+LocationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C22F42E1740C7C900AFC8DD /* CLLocation+LocationExtensions.m */; };
 		5C22F4311740C82A00AFC8DD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C22F4301740C82A00AFC8DD /* CoreLocation.framework */; };
+		5C25DFBF1754DB5900B8B930 /* FBEncryptorAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C25DFBC1754DB5900B8B930 /* FBEncryptorAES.m */; };
+		5C25DFC01754DB5900B8B930 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C25DFBE1754DB5900B8B930 /* NSData+Base64.m */; };
 		5C321AA417451C0C0038D8C3 /* BSKeyboardControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C321AA017451C0C0038D8C3 /* BSKeyboardControls.m */; };
 		5C321AA517451C0C0038D8C3 /* BSKeyboardControls.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C321AA117451C0C0038D8C3 /* BSKeyboardControls.strings */; };
 		5C321AAB1745263B0038D8C3 /* LBReadingTimeScrollPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C321AA81745263B0038D8C3 /* LBReadingTimeScrollPanel.m */; };
@@ -95,6 +97,7 @@
 		5C321AB0174528120038D8C3 /* CBAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C321AAF174528120038D8C3 /* CBAutoScrollLabel.m */; };
 		5C321AB3174529A60038D8C3 /* AKSVideoAndImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C321AB2174529A60038D8C3 /* AKSVideoAndImagePicker.m */; };
 		5C321AB5174530990038D8C3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C321AB4174530990038D8C3 /* AssetsLibrary.framework */; };
+		5C3801FF1754C302005A9475 /* FrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3801FE1754C302005A9475 /* FrameAccessor.m */; };
 		5C39D757174F5289007289CF /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C39D745174F5289007289CF /* AFHTTPClient.m */; };
 		5C39D758174F5289007289CF /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C39D747174F5289007289CF /* AFHTTPRequestOperation.m */; };
 		5C39D759174F5289007289CF /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C39D749174F5289007289CF /* AFImageRequestOperation.m */; };
@@ -478,6 +481,10 @@
 		5C22F42D1740C7C900AFC8DD /* CLLocation+LocationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+LocationExtensions.h"; sourceTree = "<group>"; };
 		5C22F42E1740C7C900AFC8DD /* CLLocation+LocationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+LocationExtensions.m"; sourceTree = "<group>"; };
 		5C22F4301740C82A00AFC8DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5C25DFBB1754DB5900B8B930 /* FBEncryptorAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEncryptorAES.h; sourceTree = "<group>"; };
+		5C25DFBC1754DB5900B8B930 /* FBEncryptorAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEncryptorAES.m; sourceTree = "<group>"; };
+		5C25DFBD1754DB5900B8B930 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		5C25DFBE1754DB5900B8B930 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		5C321A9F17451C0C0038D8C3 /* BSKeyboardControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKeyboardControls.h; sourceTree = "<group>"; };
 		5C321AA017451C0C0038D8C3 /* BSKeyboardControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKeyboardControls.m; sourceTree = "<group>"; };
 		5C321AA217451C0C0038D8C3 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/BSKeyboardControls.strings; sourceTree = "<group>"; };
@@ -491,6 +498,8 @@
 		5C321AB1174529A60038D8C3 /* AKSVideoAndImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKSVideoAndImagePicker.h; sourceTree = "<group>"; };
 		5C321AB2174529A60038D8C3 /* AKSVideoAndImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKSVideoAndImagePicker.m; sourceTree = "<group>"; };
 		5C321AB4174530990038D8C3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5C3801FD1754C302005A9475 /* FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAccessor.h; sourceTree = "<group>"; };
+		5C3801FE1754C302005A9475 /* FrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameAccessor.m; sourceTree = "<group>"; };
 		5C39D744174F5289007289CF /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		5C39D745174F5289007289CF /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		5C39D746174F5289007289CF /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -1307,6 +1316,17 @@
 			name = "LocationHelper Related";
 			sourceTree = "<group>";
 		};
+		5C25DFBA1754DB5900B8B930 /* FBEncryptorAES */ = {
+			isa = PBXGroup;
+			children = (
+				5C25DFBB1754DB5900B8B930 /* FBEncryptorAES.h */,
+				5C25DFBC1754DB5900B8B930 /* FBEncryptorAES.m */,
+				5C25DFBD1754DB5900B8B930 /* NSData+Base64.h */,
+				5C25DFBE1754DB5900B8B930 /* NSData+Base64.m */,
+			);
+			path = FBEncryptorAES;
+			sourceTree = "<group>";
+		};
 		5C321A9E17451C0C0038D8C3 /* BSKeyboardControls */ = {
 			isa = PBXGroup;
 			children = (
@@ -1343,6 +1363,15 @@
 				5C321AB4174530990038D8C3 /* AssetsLibrary.framework */,
 			);
 			name = AKSVideoAndImagePicker;
+			sourceTree = "<group>";
+		};
+		5C3801FC1754C302005A9475 /* FrameAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				5C3801FD1754C302005A9475 /* FrameAccessor.h */,
+				5C3801FE1754C302005A9475 /* FrameAccessor.m */,
+			);
+			path = FrameAccessor;
 			sourceTree = "<group>";
 		};
 		5C39D743174F5289007289CF /* AFNetworking */ = {
@@ -2225,6 +2254,7 @@
 		5CDEE782173255C300621C04 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				5C3801FC1754C302005A9475 /* FrameAccessor */,
 				5CF391481754B02F00858550 /* Generic Solutions */,
 				5CF391471754AFEA00858550 /* UIEnhancements */,
 				5CF391461754AFB100858550 /* Usefull Libraries */,
@@ -2511,6 +2541,7 @@
 		5CF391451754AF6600858550 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				5C25DFBA1754DB5900B8B930 /* FBEncryptorAES */,
 				5CDEE7D8173255C300621C04 /* NSData+MD5 */,
 				5CDEE7DB173255C300621C04 /* NSDate+Helper */,
 				5CDEE7DE173255C300621C04 /* NSObject+PE */,
@@ -3016,6 +3047,9 @@
 				5CF391421754AF5B00858550 /* UIImage+FixRotation.m in Sources */,
 				5CF391431754AF5B00858550 /* UIImage+Gaussian.m in Sources */,
 				5CF391441754AF5B00858550 /* UIImage+Thumbnail.m in Sources */,
+				5C3801FF1754C302005A9475 /* FrameAccessor.m in Sources */,
+				5C25DFBF1754DB5900B8B930 /* FBEncryptorAES.m in Sources */,
+				5C25DFC01754DB5900B8B930 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
