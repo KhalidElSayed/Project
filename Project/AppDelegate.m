@@ -30,6 +30,7 @@
 
 #if DEBUG
 #import "UIApplication+SimulatorRemoteNotifications.h"
+#import "RRFPSBar.h"
 #endif
 
 /**
@@ -53,6 +54,7 @@ NSString *const FBSessionStateChangedNotification = @"com.example.Login:FBSessio
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	
 	[self setupSDURLCache];
     [self prepareForApplePushNotificationsService];
     [self initializeContents];
@@ -62,10 +64,19 @@ NSString *const FBSessionStateChangedNotification = @"com.example.Login:FBSessio
     [self setupFlurry];
     [self setupDCIntrospect];
     [self initializeGooglePlus];
+	[self initialiseAndSetupDebuggingHelpers];
+	
     return YES;
 }
 
 #pragma mark - Methods for initialising basic contents
+
+-(void)initialiseAndSetupDebuggingHelpers
+{
+#if DEBUG
+    [[RRFPSBar sharedInstance] setHidden:NO];
+#endif
+}
 
 - (void)initializeContents {
     TCSTART

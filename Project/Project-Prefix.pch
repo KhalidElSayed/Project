@@ -22,5 +22,6 @@
 #import "CommonFunctions.h"
 #import "UIColor+Additions.h"
 #import "Constants.h"
+#import "BlockBasedExtensions.h"
 
 #endif
