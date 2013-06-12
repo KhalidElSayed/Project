@@ -26,6 +26,7 @@
 #import "CJPAdController.h"
 #import "TemplateViewController.h"
 #import "SDURLCache.h"
+#import "FMDBDataAccess.h"
 
 
 #if DEBUG
@@ -81,7 +82,14 @@ NSString *const FBSessionStateChangedNotification = @"com.example.Login:FBSessio
 - (void)initializeContents {
     TCSTART
 
+#define USE_FMDB 1
+
+#if USE_FMDB
+	[FMDBDataAccess createAndCheckDatabase];
+#else
     [DatabaseHandler sharedObject];
+#endif
+	
     isPurchasingNow = FALSE;
 
     TCEND

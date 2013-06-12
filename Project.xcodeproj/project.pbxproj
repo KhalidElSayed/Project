@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0034AE1760BC81002C7EEE /* TSLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0034AD1760BC81002C7EEE /* TSLanguageManager.m */; };
 		5C0A8AAB1753412B00E6CF43 /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A8AAA1753412B00E6CF43 /* UIView+Shadow.m */; };
 		5C0A8AE11753440700E6CF43 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A8AAF1753440700E6CF43 /* NSMutableURLRequest+Parameters.m */; };
 		5C0A8AE21753440700E6CF43 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A8AB11753440700E6CF43 /* NSString+URLEncoding.m */; };
@@ -307,6 +308,9 @@
 		5CC0449D173CE85000373F1B /* photo-gallery-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC04499173CE85000373F1B /* photo-gallery-left.png */; };
 		5CC0449E173CE85000373F1B /* photo-gallery-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0449A173CE85000373F1B /* photo-gallery-right.png */; };
 		5CC0449F173CE85000373F1B /* photo-gallery-trashcan.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0449B173CE85000373F1B /* photo-gallery-trashcan.png */; };
+		5CD531291768B5AD006D2302 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD531261768B5AD006D2302 /* FMDatabase.m */; };
+		5CD5312A1768B5AD006D2302 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD531281768B5AD006D2302 /* FMResultSet.m */; };
+		5CD5312D1768B5B9006D2302 /* FMDBDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD5312C1768B5B9006D2302 /* FMDBDataAccess.m */; };
 		5CD90C38173A8A870035C14A /* DCCrossHairView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD90C30173A8A870035C14A /* DCCrossHairView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5CD90C39173A8A870035C14A /* DCFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD90C32173A8A870035C14A /* DCFrameView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5CD90C3A173A8A870035C14A /* DCIntrospect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD90C34173A8A870035C14A /* DCIntrospect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -392,6 +396,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C0034AC1760BC81002C7EEE /* TSLanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLanguageManager.h; sourceTree = "<group>"; };
+		5C0034AD1760BC81002C7EEE /* TSLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLanguageManager.m; sourceTree = "<group>"; };
 		5C0A8AA91753412B00E6CF43 /* UIView+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shadow.h"; sourceTree = "<group>"; };
 		5C0A8AAA1753412B00E6CF43 /* UIView+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shadow.m"; sourceTree = "<group>"; };
 		5C0A8AAE1753440700E6CF43 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
@@ -945,6 +951,12 @@
 		5CC04499173CE85000373F1B /* photo-gallery-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-left.png"; sourceTree = "<group>"; };
 		5CC0449A173CE85000373F1B /* photo-gallery-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-right.png"; sourceTree = "<group>"; };
 		5CC0449B173CE85000373F1B /* photo-gallery-trashcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-trashcan.png"; sourceTree = "<group>"; };
+		5CD531251768B5AD006D2302 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		5CD531261768B5AD006D2302 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		5CD531271768B5AD006D2302 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		5CD531281768B5AD006D2302 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		5CD5312B1768B5B9006D2302 /* FMDBDataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBDataAccess.h; sourceTree = "<group>"; };
+		5CD5312C1768B5B9006D2302 /* FMDBDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBDataAccess.m; sourceTree = "<group>"; };
 		5CD90C2F173A8A870035C14A /* DCCrossHairView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCrossHairView.h; sourceTree = "<group>"; };
 		5CD90C30173A8A870035C14A /* DCCrossHairView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCrossHairView.m; sourceTree = "<group>"; };
 		5CD90C31173A8A870035C14A /* DCFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFrameView.h; sourceTree = "<group>"; };
@@ -1140,6 +1152,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C0034AB1760BC81002C7EEE /* TSLanguageManager */ = {
+			isa = PBXGroup;
+			children = (
+				5C0034AC1760BC81002C7EEE /* TSLanguageManager.h */,
+				5C0034AD1760BC81002C7EEE /* TSLanguageManager.m */,
+			);
+			path = TSLanguageManager;
+			sourceTree = "<group>";
+		};
 		5C0A8AA81753412B00E6CF43 /* UIView+Shadow */ = {
 			isa = PBXGroup;
 			children = (
@@ -1354,8 +1375,8 @@
 		5C1A50D8173BD6780028D48A /* Database Handler */ = {
 			isa = PBXGroup;
 			children = (
-				5C1A50D9173BD6780028D48A /* DatabaseHandler.h */,
-				5C1A50DA173BD6780028D48A /* DatabaseHandler.m */,
+				5CD531301768B632006D2302 /* FMDB Database Manager */,
+				5CD5312F1768B621006D2302 /* Basic Database Manager */,
 				5C1A50DF173BDBD40028D48A /* Project.sqlite */,
 			);
 			path = "Database Handler";
@@ -2228,6 +2249,35 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		5CD531241768B5AD006D2302 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				5CD531251768B5AD006D2302 /* FMDatabase.h */,
+				5CD531261768B5AD006D2302 /* FMDatabase.m */,
+				5CD531271768B5AD006D2302 /* FMResultSet.h */,
+				5CD531281768B5AD006D2302 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		5CD5312F1768B621006D2302 /* Basic Database Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5C1A50D9173BD6780028D48A /* DatabaseHandler.h */,
+				5C1A50DA173BD6780028D48A /* DatabaseHandler.m */,
+			);
+			name = "Basic Database Manager";
+			sourceTree = "<group>";
+		};
+		5CD531301768B632006D2302 /* FMDB Database Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5CD5312B1768B5B9006D2302 /* FMDBDataAccess.h */,
+				5CD5312C1768B5B9006D2302 /* FMDBDataAccess.m */,
+			);
+			name = "FMDB Database Manager";
+			sourceTree = "<group>";
+		};
 		5CD90C2E173A8A870035C14A /* DCIntrospect */ = {
 			isa = PBXGroup;
 			children = (
@@ -2398,6 +2448,7 @@
 		5CDEE782173255C300621C04 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				5CD531241768B5AD006D2302 /* FMDB */,
 				5C3801FC1754C302005A9475 /* FrameAccessor */,
 				5CF391481754B02F00858550 /* Generic Solutions */,
 				5CF391471754AFEA00858550 /* UIEnhancements */,
@@ -2736,6 +2787,7 @@
 		5CF391481754B02F00858550 /* Generic Solutions */ = {
 			isa = PBXGroup;
 			children = (
+				5C0034AB1760BC81002C7EEE /* TSLanguageManager */,
 				5CEAC066175DF357005D4544 /* VerticallyAlignedLabel */,
 				5C5A11841746182B002AA91E /* TPKeyboardAvoiding */,
 			);
@@ -3234,6 +3286,10 @@
 				5CBE3C27175F5A8000437F08 /* UIActionSheet+MKBlockAdditions.m in Sources */,
 				5CBE3C28175F5A8000437F08 /* UIAlertView+MKBlockAdditions.m in Sources */,
 				5CBE3C2D175F623E00437F08 /* RRFPSBar.m in Sources */,
+				5C0034AE1760BC81002C7EEE /* TSLanguageManager.m in Sources */,
+				5CD531291768B5AD006D2302 /* FMDatabase.m in Sources */,
+				5CD5312A1768B5AD006D2302 /* FMResultSet.m in Sources */,
+				5CD5312D1768B5B9006D2302 /* FMDBDataAccess.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
