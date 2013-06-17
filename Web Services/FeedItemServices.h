@@ -17,61 +17,23 @@
 @class AppDelegate;
 
 
+typedef void (^operationFinishedBlock)(id responseData);
+
+
+@interface FeedItemServices : NSObject
+
 /**
-
- Protocol : RegisterDeviceOperationDelegate :-
-
- This protocol is required to handle request and responses for registering the device at server for this application.
+ method to get data
  */
+- (void)getDataExample:(operationFinishedBlock)operationFinishedBlock;
 
-@protocol RegisterDeviceOperationDelegate <NSObject>
-@optional
-- (void)didFinishedRegistration:(NSMutableDictionary *)results;
-- (void)didFailRegistrationWithError;
+/**
+ method to post data
+ */
+- (void)postDataExample:(operationFinishedBlock)operationFinishedBlock;
+
 @end
 
-/**
 
- Protocol : GetDeviceInfoOperationDelegate :-
 
- This protocol is required to handle request and responses for getting updated device infotmation from server in this application.
 
- */
-
-@protocol GetDeviceInfoOperationDelegate <NSObject>
-@optional
-- (void)didFinishedGettingDeviceInfo:(NSMutableDictionary *)results;
-- (void)didFailGettingDeviceInfoWithError;
-@end
-
-@interface FeedItemServices : NSObject <
-RegisterDeviceOperationDelegate,
-GetDeviceInfoOperationDelegate
->
-{
-    /**
-     caller/delegate of this network service.
-     */
-    id caller_;
-
-    /**
-     pointer to the application delegate class
-     */
-    AppDelegate *appDelegate;
-}
-
-/**
- method to allocate object of this service class with delegate.
- */
-- (id)initWithCaller:(id)caller;
-
-/**
- method to get updated device information from server.
- */
-- (void)getDeviceInfo;
-
-/**
- method to register current device information at server.
- */
-- (void)registerCurrentDevice;
-@end

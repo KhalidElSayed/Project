@@ -333,7 +333,6 @@
 		5CDEE745173239F700621C04 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDEE744173239F700621C04 /* MessageUI.framework */; };
 		5CDEE74B17323A4300621C04 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDEE74A17323A4300621C04 /* StoreKit.framework */; };
 		5CDEE75217323B1300621C04 /* FeedItemServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEE74F17323B1300621C04 /* FeedItemServices.m */; };
-		5CDEE75317323B1300621C04 /* NetworkConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEE75117323B1300621C04 /* NetworkConnection.m */; };
 		5CDEE75617323D0600621C04 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDEE75517323D0600621C04 /* QuartzCore.framework */; };
 		5CDEE76C1732541800621C04 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDEE76B1732541800621C04 /* MediaPlayer.framework */; };
 		5CDEE803173255C300621C04 /* AksAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEE785173255C300621C04 /* AksAnimations.m */; };
@@ -989,8 +988,6 @@
 		5CDEE74A17323A4300621C04 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		5CDEE74E17323B1300621C04 /* FeedItemServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedItemServices.h; sourceTree = "<group>"; };
 		5CDEE74F17323B1300621C04 /* FeedItemServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedItemServices.m; sourceTree = "<group>"; };
-		5CDEE75017323B1300621C04 /* NetworkConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConnection.h; sourceTree = "<group>"; };
-		5CDEE75117323B1300621C04 /* NetworkConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkConnection.m; sourceTree = "<group>"; };
 		5CDEE75417323B2D00621C04 /* ApplicationUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationUrls.h; sourceTree = "<group>"; };
 		5CDEE75517323D0600621C04 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5CDEE76B1732541800621C04 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -2431,8 +2428,6 @@
 				5CDEE75417323B2D00621C04 /* ApplicationUrls.h */,
 				5CDEE74E17323B1300621C04 /* FeedItemServices.h */,
 				5CDEE74F17323B1300621C04 /* FeedItemServices.m */,
-				5CDEE75017323B1300621C04 /* NetworkConnection.h */,
-				5CDEE75117323B1300621C04 /* NetworkConnection.m */,
 			);
 			path = "Web Services";
 			sourceTree = "<group>";
@@ -3091,7 +3086,6 @@
 				5CDEE6A11732382500621C04 /* main.m in Sources */,
 				5CDEE6A51732382500621C04 /* AppDelegate.m in Sources */,
 				5CDEE75217323B1300621C04 /* FeedItemServices.m in Sources */,
-				5CDEE75317323B1300621C04 /* NetworkConnection.m in Sources */,
 				5CDEE803173255C300621C04 /* AksAnimations.m in Sources */,
 				5CDEE808173255C300621C04 /* AKSMethods.m in Sources */,
 				5CDEE809173255C300621C04 /* Base64Converter.m in Sources */,

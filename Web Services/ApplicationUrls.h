@@ -23,13 +23,13 @@
 ////////////////////////////////////////////////DEVICES RELATED////////////////////////////////////////////////
 
 /**
-POST_REQUEST_EXAMPLE_URL 
+ POST_REQUEST_EXAMPLE_URL
  */
-#define POST_REQUEST_EXAMPLE_URL     @"https:// "
+#define POST_REQUEST_EXAMPLE_URL @"http://www.google.co.in/"
 /**
  GET_REQUEST_EXAMPLE_URL
-*/
-#define GET_REQUEST_EXAMPLE_URL      @"https:// %@"
+ */
+#define GET_REQUEST_EXAMPLE_URL  @"http://www.google.co.in/"
 
 
 
